@@ -1,0 +1,230 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header Section */
+.header {
+    background-color: #0d0d0d;
+    padding: 80px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-text {
+    max-width: 50%;
+}
+
+.header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.header h1 span {
+    color: #f5a623;
+}
+
+.header p {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.button-group {
+    margin-top: 30px;
+}
+
+.button-group .btn {
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #f5a623;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.btn.hire-me {
+    background-color: #f5a623;
+}
+
+.btn.my-works {
+    background-color: #000;
+    border: 1px solid #f5a623;
+}
+
+/* Header Image */
+.header-image img {
+    width: 300px; 
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #151515;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* About Section */
+.about {
+    padding: 60px 20px;
+    background-color: #0d0d0d;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image img { 
+    width: 250px;
+    height: 250px;
+}
+
+.about-details {
+    margin-left: 30px;
+}
+
+.about-details p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.about-details .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f5a623;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Skills Section */
+.skills {
+    background-color: #0d0d0d;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.skill {
+    font-size: 18px;
+}
+
+.progress {
+    background-color: #333;
+    border-radius: 25px;
+    height: 15px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #f5a623;
+    border-radius: 25px;
+}
+
+
+
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background-color: #444;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.header-image img {
+    max-width: 400px;
+}
+
+.btn {
+    background-color: #f0a500;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.btn:hover {
+    background-color: #e59400;
+}
+
+/* Add more specific styling for other pages here */

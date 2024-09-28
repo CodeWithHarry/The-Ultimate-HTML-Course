@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables - HTML</title>
+    <style>
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 20px 0;
+          font-size: 18px;
+          text-align: left;
+        }
+      
+        th, td {
+          padding: 12px;
+          border-bottom: 1px solid #ddd;
+          border: 2px solid black;
+        }
+      
+        th {
+          background-color: #f4f4f4;
+          color: #333;
+        }
+      
+        tr:nth-child(even) {
+          background-color: #f9f9f9;
+        }
+      
+        tr:hover {
+          background-color: #f1f1f1;
+        }
+      
+        caption {
+          font-size: 24px;
+          font-weight: bold;
+          margin-bottom: 15px;
+        }
+      </style>
+      
+</head>
+
+<body>
+    <h1>Tables in HTML</h1>
+    <table>
+        <!-- Head of the table  -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+        <!-- Body of the table  -->
+        <tbody>
+            <tr>
+                <td>Harry</td>
+                <td>Software Developer</td>
+                <td>$70000</td>
+            </tr>
+            <tr>
+                <td>Rohan</td>
+                <td>Software Helper</td>
+                <td>$7</td>
+            </tr>
+            <tr>
+                <td>Shivam</td>
+                <td>ML Engineer</td>
+                <td>$100</td>
+            </tr>
+
+            <tr>
+                <td>Renuka</td>
+                <td>AI Engineer</td>
+                <td>$100000</td>
+            </tr>
+            <tr>
+                <td>Thank</td> 
+                <td colspan="2">You</td> 
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
