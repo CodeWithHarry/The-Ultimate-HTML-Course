@@ -1,7 +1,7 @@
 # HTML Programming Fundamentals
 
 **Welcome!**  
-I'm diving into the fundamentals of **HTML programming**, covering everything from basic syntax to advanced web development concepts. This repository is a self-reference guide that includes:
+I'm exploring **HTML programming**, from the basics to more advanced web development skills. This course will help you move from a beginner to an advanced HTML developer. This repository is a handy guide that includes:
 
 - 📚 Practical exercises
 - 🚀 Project ideas
