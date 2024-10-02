@@ -1,6 +1,7 @@
-# HTML Programming Fundamentals
+# The Ultimate HTML Course
 
-**Welcome!**  
+**Welcome to [**The Ultimate HTML Course!**](https://youtu.be/k2DSi1zGEc8)**  
+
 I'm exploring **HTML programming**, from the basics to more advanced web development skills. This course will help you move from a beginner to an advanced HTML developer. This repository is a handy guide that includes:
 
 - 📚 Practical exercises
